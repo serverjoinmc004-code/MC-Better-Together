@@ -1,0 +1,367 @@
+[21:41:47] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
+[21:41:48] [main/INFO]: Loading 137 mods:
+	- c2me 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-base 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-client-uncapvd 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-fixes-general-threading-issues 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-notickvd 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-opts-allocs 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-opts-chunkio 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-opts-dfc 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-opts-math 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-opts-scheduling 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-opts-worldgen-general 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-opts-worldgen-vanilla 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-rewrites-chunk-serializer 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-rewrites-chunk-system 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-rewrites-chunkio 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-server-utils 0.3.6+alpha.0.40+1.21.11
+	   |-- c2me-threading-lighting 0.3.6+alpha.0.40+1.21.11
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.12
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- fabric-api 0.140.0+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.113+1fb1cde93e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.43+1fb1cde93e
+	   |-- fabric-data-generation-api-v1 23.3.0+ae1056283e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.0.5+4ebb5c083e
+	   |-- fabric-events-interaction-v0 4.0.44+1fb1cde93e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-model-loading-api-v1 6.0.12+4fc5413f3e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.38+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.4+4ebb5c083e
+	   |-- fabric-renderer-api-v1 8.0.0+f4ffd2e53e
+	   |-- fabric-renderer-indigo 5.0.0+f4ffd2e53e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.7+f4ffd2e53e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.160+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.24+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.0.8+0107c3da3e
+	- fabric-language-kotlin 1.13.8+kotlin.2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.3
+	- flectonepulse 1.7.2
+	   \-- cloud 2.0.0-beta.15
+	        |-- io_leangen_geantyref_geantyref 1.3.15
+	        |-- org_incendo_cloud-brigadier 2.0.0-beta.14
+	        |-- org_incendo_cloud-core 2.0.0
+	        |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.15
+	        \-- org_incendo_cloud-services 2.0.0
+	- fsit 2.8.3+mc1.21.11
+	- geyser-fabric 2.9.2-SNAPSHOT
+	   |-- cloud 2.0.0-beta.15
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.14
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.15
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- com_google_errorprone_error_prone_annotations 2.27.0
+	   |-- com_google_j2objc_j2objc-annotations 1.3
+	   |-- com_nukkitx_natives 1.0.3
+	   |-- fabric-permissions-api-v0 0.6.1
+	   |-- io_airlift_aircompressor 0.27
+	   |-- io_netty_netty-codec-haproxy 4.2.7
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_kyori_adventure-api 4.25.0
+	   |-- net_kyori_adventure-key 4.25.0
+	   |-- net_kyori_adventure-nbt 4.25.0
+	   |-- net_kyori_adventure-text-serializer-commons 4.25.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.25.0
+	   |-- net_kyori_adventure-text-serializer-json 4.25.0
+	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.25.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.25.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.25.0
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_kyori_option 1.1.0
+	   |-- net_lenni0451_commons_gson 1.9.0
+	   |-- net_lenni0451_commons_httpclient 1.9.0
+	   |-- net_raphimc_minecraftauth 5.0.0
+	   |-- org_bitbucket_b_c_jose4j 0.9.6
+	   |-- org_bstats_bstats-base 3.1.0
+	   |-- org_cloudburstmc_math_api 2.0
+	   |-- org_cloudburstmc_math_immutable 2.0
+	   |-- org_cloudburstmc_nbt 3.0.3
+	   |-- org_geysermc_api_base-api 1.0.2
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_java-websocket_java-websocket 1.5.1
+	   |-- org_lanternpowered_lmbda 2.0.0
+	   \-- org_yaml_snakeyaml 2.2
+	- java 21
+	- lithium 0.21.1+mc1.21.11
+	- luckperms 5.5.22
+	   \-- fabric-permissions-api-v0 0.6.1
+	- minecraft 1.21.11
+	- moderner_beta 4.0.1+1.21.11
+	- nochatreports 1.21.11-v2.17.0
+	- packetevents 2.11.1
+	   |-- com_github_retrooper_api 2.11.1
+	   |-- com_github_retrooper_netty-common 2.11.1
+	   |-- net_kyori_adventure-api 4.25.0
+	   |-- net_kyori_adventure-key 4.25.0
+	   |-- net_kyori_adventure-nbt 4.25.0
+	   |-- net_kyori_examination-api 1.3.0
+	   \-- net_kyori_examination-string 1.3.0
+	- skinrestorer 2.4.3+1.21.11-fabric
+	   \-- org_mineskin_java-client 3.0.6-SNAPSHOT
+	- spark 1.10.156
+	   \-- fabric-permissions-api-v0 0.6.1
+	- watching 1.11.2
+[21:41:48] [main/WARN]: Found 1 non-fabric mod:
+	- ThirdPartyCosmetics.jar
+[21:41:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MC-Better-Together/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:41:48] [main/INFO]: Compatibility level set to JAVA_16
+[21:41:48] [main/INFO]: Compatibility level set to JAVA_21
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[21:41:48] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:41:48] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[21:41:48] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[21:41:48] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[21:41:48] [main/WARN]: Reference map 'nochatreports.refmap.json' for mixins/common/nochatreports.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:41:48] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:41:48] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:41:48] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[21:41:49] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[21:41:56] [main/INFO]: Enabling...
+[21:41:56] [main/INFO]: Loading library com.google.inject:guice:7.0.0
+[21:41:56] [main/INFO]: Loading library jakarta.inject:jakarta.inject-api:2.0.1
+[21:41:56] [main/INFO]: Loading library aopalliance:aopalliance:1.0
+[21:41:56] [main/INFO]: Loading library com.google.guava:guava:31.0.1-jre
+[21:41:56] [main/INFO]: Loading library com.google.guava:failureaccess:1.0.1
+[21:41:56] [main/INFO]: Loading library com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+[21:41:56] [main/INFO]: Loading library com.google.code.findbugs:jsr305:3.0.1
+[21:41:56] [main/INFO]: Loading library org.checkerframework:checker-qual:3.12.0
+[21:41:56] [main/INFO]: Loading library com.google.j2objc:j2objc-annotations:1.3
+[21:41:56] [main/INFO]: Loading library com.google.errorprone:error_prone_annotations:2.18.0
+[21:41:56] [main/INFO]: Loading library org.ow2.asm:asm:9.5
+[21:41:56] [main/INFO]: Loading library tools.jackson.dataformat:jackson-dataformat-yaml:3.0.3
+[21:41:56] [main/INFO]: Loading library tools.jackson.core:jackson-core:3.0.3
+[21:41:56] [main/INFO]: Loading library tools.jackson.core:jackson-databind:3.0.3
+[21:41:56] [main/INFO]: Loading library com.fasterxml.jackson.core:jackson-annotations:2.20
+[21:41:56] [main/INFO]: Loading library org.snakeyaml:snakeyaml-engine:2.10
+[21:41:56] [main/INFO]: Loading library com.zaxxer:HikariCP:7.0.2
+[21:41:56] [main/INFO]: Loading library org.jdbi:jdbi3-core:3.51.0
+[21:41:56] [main/INFO]: Loading library org.slf4j:slf4j-api:2.0.17
+[21:41:56] [main/INFO]: Loading library io.leangen.geantyref:geantyref:2.0.1
+[21:41:56] [main/INFO]: Loading library org.jdbi:jdbi3-sqlobject:3.51.0
+[21:41:56] [main/INFO]: Loading library org.jdbi:jdbi3-core:3.51.0
+[21:41:56] [main/INFO]: Loading library org.slf4j:slf4j-api:2.0.17
+[21:41:56] [main/INFO]: Loading library io.leangen.geantyref:geantyref:2.0.1
+[21:41:56] [main/INFO]: Loading library org.apache.commons:commons-text:1.15.0
+[21:41:56] [main/INFO]: Loading library org.apache.commons:commons-lang3:3.20.0
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-api:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-key:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-api:1.3.0
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-string:1.3.0
+[21:41:56] [main/INFO]: Loading library org.jetbrains:annotations:26.0.2-1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-text-serializer-ansi:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-api:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-key:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-api:1.3.0
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-string:1.3.0
+[21:41:56] [main/INFO]: Loading library org.jetbrains:annotations:26.0.2-1
+[21:41:56] [main/INFO]: Loading library net.kyori:ansi:1.1.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-text-minimessage:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-api:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-key:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-api:1.3.0
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-string:1.3.0
+[21:41:56] [main/INFO]: Loading library org.jetbrains:annotations:26.0.2-1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-text-serializer-gson:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-text-serializer-json:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-api:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-key:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-api:1.3.0
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-string:1.3.0
+[21:41:56] [main/INFO]: Loading library net.kyori:option:1.1.0
+[21:41:56] [main/INFO]: Loading library org.jspecify:jspecify:1.0.0
+[21:41:56] [main/INFO]: Loading library com.google.code.gson:gson:2.8.0
+[21:41:56] [main/INFO]: Loading library com.google.auto.service:auto-service-annotations:1.1.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-text-serializer-commons:4.26.1
+[21:41:56] [main/INFO]: Loading library org.jetbrains:annotations:26.0.2-1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-text-serializer-plain:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-api:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-key:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-api:1.3.0
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-string:1.3.0
+[21:41:56] [main/INFO]: Loading library org.jetbrains:annotations:26.0.2-1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-text-serializer-json-legacy-impl:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-api:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-key:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-api:1.3.0
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-string:1.3.0
+[21:41:56] [main/INFO]: Loading library org.jetbrains:annotations:26.0.2-1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-text-serializer-json:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:option:1.1.0
+[21:41:56] [main/INFO]: Loading library org.jspecify:jspecify:1.0.0
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-text-serializer-commons:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-nbt:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-text-serializer-legacy:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-api:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-key:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-api:1.3.0
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-string:1.3.0
+[21:41:56] [main/INFO]: Loading library org.jetbrains:annotations:26.0.2-1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-nbt:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-api:1.3.0
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-string:1.3.0
+[21:41:56] [main/INFO]: Loading library org.jetbrains:annotations:26.0.2-1
+[21:41:56] [main/INFO]: Loading library net.kyori:adventure-key:4.26.1
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-api:1.3.0
+[21:41:56] [main/INFO]: Loading library net.kyori:examination-string:1.3.0
+[21:41:56] [main/INFO]: Loading library org.jetbrains:annotations:26.0.2-1
+[21:41:59] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m ___       ___  __  ___  __        ___ [0m[0m
+[21:41:59] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m|__  |    |__  /  `  |  /  \ |\ | |__  [0m[0m
+[21:41:59] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m|    |___ |___ \__,  |  \__/ | \| |___ [0m[0m
+[21:41:59] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m __             __   ___ [0;96m                       [0m[0m
+[21:41:59] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m|__) |  | |    /__` |__  [0;96m                   [0m[0m
+[21:41:59] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m|    \__/ |___ .__/ |___[0;96m   /\         [0m[0m
+[21:41:59] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;96m                          /  \ v1.7.2               [0m[0m
+[21:41:59] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;96m__/\___  ____/\_____  ___/    \______ [0m[0m
+[21:41:59] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;96m       \/           \/  [0m[0m
+[21:41:59] [main/INFO]: Loading library com.h2database:h2:2.4.240
+[21:42:00] [FlectonePulseThread-1/INFO]: [0;34m(FlectonePulse) [0m[0;96mLoaded translation es_es.json[0m
+[21:42:00] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96mH2 database connected[0m
+[21:42:00] [packetevents-update-check-thread/INFO]: Checking for updates, please wait...
+[21:42:00] [packetevents-update-check-thread/INFO]: You are running the latest release of PacketEvents. Your build: (2.11.1)
+[21:42:00] [main/INFO]: [0;34m(FlectonePulse) [0m[0;93mOnline module is not supported on Fabric[0m
+[21:42:00] [main/INFO]: [0;34m(FlectonePulse) [0m[0;93mToponline module is not supported on Fabric[0m
+[21:42:01] [main/INFO]: [0;34m(FlectonePulse) [0m[0;96mFlectonePulse v1.7.2 enabled[0m
+[21:42:01] [main/INFO]: Loading extensions...
+[21:42:01] [main/INFO]: Loaded 0 extension(s)
+[21:42:02] [main/INFO]: [Moderner Beta] Initializing Moderner Beta...
+[21:42:02] [main/INFO]: Loading configuration...
+[21:42:03] [main/ERROR]: Couldn't load watching pack metadata: Pack declares support for format 69, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [69, 81] or require a version greater or equal to 82.0.
+[21:42:03] [main/ERROR]: Couldn't load watching pack metadata: Pack declares support for format 69, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [69, 81] or require a version greater or equal to 82.0.
+[21:42:03] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:42:03] [main/ERROR]: Couldn't load watching pack metadata: Pack declares support for format 69, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [69, 81] or require a version greater or equal to 82.0.
+[21:42:04] [Worker-Main-3/ERROR]: Invalid path in mod resource-pack watching: lunareclipse.watching:function/THIS IS NOT A BUG IT IS INTENTIONAL - $FTF_DATAPACK.mcfunction, ignoring
+[21:42:05] [main/INFO]: Loaded 1470 recipes
+[21:42:05] [main/ERROR]: Failed to load function lunareclipse.watching:main/reload
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 10: Incorrect argument for command at position 9: gamerule <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	at knot//net.minecraft.class_4014.method_67576(class_4014.java:51)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 10: Incorrect argument for command at position 9: gamerule <--[HERE]
+	at knot//net.minecraft.class_2158.method_9195(class_2158.java:80)
+	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 7 more
+[21:42:05] [main/ERROR]: Couldn't load tag minecraft:load as it is missing following references: lunareclipse.watching:main/reload (from watching)
+[21:42:05] [main/INFO]: Loaded 1627 advancements
+[21:42:05] [main/INFO]: Applied 0 biome modifications to 0 of 121 new biomes in 1.636 ms
+[21:42:05] [Server thread/INFO]: Starting background profiler...
+[21:42:06] [Server thread/INFO]:         __    
+[21:42:06] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[21:42:06] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.140.0+1.21.11
+[21:42:06] [Server thread/INFO]: 
+[21:42:06] [Server thread/INFO]: Loading storage provider... [H2]
+[21:42:06] [Server thread/INFO]: Loading internal permission managers...
+[21:42:06] [Server thread/INFO]: Performing initial data load...
+[21:42:06] [Server thread/INFO]: Successfully enabled. (took 386ms)
+[21:42:06] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[21:42:06] [Server thread/INFO]: Loading properties
+[21:42:06] [Server thread/INFO]: Default game type: SURVIVAL
+[21:42:06] [Server thread/INFO]: Generating keypair
+[21:42:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:42:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:42:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:42:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:42:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:42:06] [Server thread/INFO]: Preparing level "world"
+[21:42:06] [Server thread/INFO]: Enforcing safe world random access
+[21:42:07] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 79.47 ms
+[21:42:07] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[21:42:07] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 15.46 ms
+[21:42:07] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 19.34 ms
+[21:42:07] [Server thread/INFO]: Loading 0 persistent chunks...
+[21:42:07] [Server thread/INFO]: Preparing spawn area: 100%
+[21:42:07] [Server thread/INFO]: Time elapsed: 14 ms
+[21:42:07] [Server thread/INFO]: Done (0.982s)! For help, type "help"
+[21:42:08] [Server thread/INFO]: ******************************************
+[21:42:08] [Server thread/INFO]: 
+[21:42:08] [Server thread/INFO]: Loading Geyser version 2.9.2-b1014 (git-master-27fc2d5)
+[21:42:08] [Server thread/INFO]: 
+[21:42:08] [Server thread/INFO]: ******************************************
+[21:42:11] [GeyserServer-3-1/INFO]: Started Geyser on UDP port 19132
+[21:42:11] [Server thread/INFO]: Done (2.467s)! Run /geyser help for help!
+[21:42:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3284ms or 65 ticks behind
+[21:42:12] [FlectonePulseThread-6/INFO]: [0;34m(FlectonePulse) [0m[0;96m✔ LuckPerms hooked[0m
+[21:42:12] [FlectonePulseThread-7/INFO]: [0;34m(FlectonePulse) [0m[0;96m✔ Geyser hooked[0m
+[21:42:16] [Server thread/INFO]: Server empty for 5 seconds, pausing
+[21:42:17] [Server thread/INFO]: [Server] !
+[21:43:31] [Server thread/INFO]: [Server] !
